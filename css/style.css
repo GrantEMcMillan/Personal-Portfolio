@@ -1,0 +1,43 @@
+body {
+  background-color: #34353a;
+}
+
+.navbar-toggler {
+  color: #ffd046;
+  background-color: #ffd046;
+  border-color: #ffd046;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.navbar-brand {
+  color: #ffd046;
+  font-family: Copperplate, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  padding: 0 1rem 0 1rem;
+
+  &:hover {
+    background-color: #ffd046;
+    color: black;
+  }
+}
+
+.nav-link {
+  color: white;
+
+  &:hover {
+    background-color: white;
+  }
+}
+
+.search-button {
+  color: #ffd046;
+  border-color: #ffd046;
+  outline: #ffd046;
+  &:hover {
+    background-color: #ffd046;
+    color: black;
+  }
+}
