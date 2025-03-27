@@ -16,11 +16,16 @@ body {
   color: #ffd046;
   font-family: Copperplate, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2rem;
-  padding: 0 1rem 0 1rem;
+  padding: 0 0.5rem 0 0.5rem;
 
   &:hover {
-    background-color: #ffd046;
-    color: black;
+    color: #ffd046;
+    opacity: 0.5;
+  }
+
+  &:focus {
+    background-color: transparent;
+    color: #ffd046;
   }
 }
 
@@ -28,7 +33,11 @@ body {
   color: white;
 
   &:hover {
-    background-color: white;
+    color: #ffd046;
+  }
+
+  &:focus {
+    color: #ffd046;
   }
 }
 
@@ -36,6 +45,27 @@ body {
   color: #ffd046;
   border-color: #ffd046;
   outline: #ffd046;
+  &:hover {
+    background-color: #ffd046;
+    color: black;
+  }
+}
+
+/* Intro and Profile Picture */
+#intro h1,
+h2 {
+  color: white;
+}
+
+.name {
+  color: #ffd046;
+  font-size: 3rem;
+}
+
+.contact-btn {
+  color: #ffd046;
+  background-color: #34353a;
+  border: solid #ffd046 1px;
   &:hover {
     background-color: #ffd046;
     color: black;
