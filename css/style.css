@@ -116,6 +116,20 @@ body {
   background-color: #ffd046;
 }
 
-.about-text {
+.section-text {
   color: white;
+}
+
+/* Skills Section */
+
+h3 {
+  color: white;
+}
+.fa-brands.fa-html5 {
+  color: orange;
+  font-size: 5rem;
+}
+.fa-brands.fa-css3 {
+  color: blue;
+  font-size: 5rem;
 }
