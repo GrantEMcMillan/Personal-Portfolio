@@ -1,5 +1,6 @@
 body {
   background-color: #34353a;
+  border: solid #ffd046 1px;
 }
 
 .navbar-toggler {
@@ -72,9 +73,13 @@ body {
   }
 }
 
+/* Intro Section */
+
+/* Profile pic */
+
 .profile-pic {
   opacity: 0.5;
-  width: 80%;
+  width: 100%;
 }
 
 /* Socials */
@@ -121,6 +126,10 @@ body {
 }
 
 /* Skills Section */
+#skills h2 {
+  border-bottom: solid #ffd046 2px;
+  padding-bottom: 1rem;
+}
 
 h3 {
   color: white;
