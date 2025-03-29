@@ -151,9 +151,9 @@
 
         <!-- Projects -->
 
-        <div class="container-fluid">
+        <div class="container-fluid" id="projects">
           <div class="row">
-            <div class="col my-5">
+            <div class="col my-5 section-heading">
               <h2>Projects</h2>
 
               <!-- Projects Row 1 -->
@@ -198,6 +198,72 @@
             </div>
           </div>
         </div>
+
+        <!-- Contact Form -->
+        <div class="container">
+          <h1>Contact Me</h1>
+          <form class="row my-3">
+            <!-- Name -->
+
+            <div class="col-lg-3">
+              <label for="fname" class="form-label">First Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                aria-describedby="fname"
+                placeholder="Enter First Name"
+                required
+              />
+            </div>
+
+            <div class="col-lg-3 my-3">
+              <label for="lname" class="form-label">Last Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                aria-describedby="lname"
+                placeholder="Enter Name"
+                required
+              />
+            </div>
+
+            <!-- Email Address -->
+            <div class="row my-3">
+              <div class="col-lg-6">
+                <label for="email" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter email"
+                  required
+                />
+              </div>
+            </div>
+
+            <!-- Message -->
+
+            <div class="col-lg-6">
+              <label for="comments" class="form-label">Comments</label>
+              <textarea
+                class="form-control"
+                id="comments"
+                rows="3"
+                placeholder="Enter a message"
+                required
+              ></textarea>
+            </div>
+
+            <!-- Submit Button -->
+
+            <div class="col-lg-6 text-end">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+        <!-- Footer -->
       </div>
     </main>
     <script src="./js/bootstrap.js"></script>
