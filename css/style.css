@@ -146,3 +146,13 @@ h3 {
 .form-label {
   color: white;
 }
+
+/* Footer */
+
+footer p {
+  margin: 0;
+}
+footer li {
+  display: inline;
+  margin: 0 1rem;
+}
