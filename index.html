@@ -200,8 +200,8 @@
         </div>
 
         <!-- Contact Form -->
-        <div class="container">
-          <h1>Contact Me</h1>
+        <div class="container" id="contact">
+          <h2>Contact Me</h2>
           <form class="row my-3">
             <!-- Name -->
 
@@ -217,7 +217,7 @@
               />
             </div>
 
-            <div class="col-lg-3 my-3">
+            <div class="col-lg-3">
               <label for="lname" class="form-label">Last Name</label>
               <input
                 type="text"
@@ -244,22 +244,24 @@
             </div>
 
             <!-- Message -->
-
-            <div class="col-lg-6">
-              <label for="comments" class="form-label">Comments</label>
-              <textarea
-                class="form-control"
-                id="comments"
-                rows="3"
-                placeholder="Enter a message"
-                required
-              ></textarea>
+            <div class="row my-3">
+              <div class="col-lg-6">
+                <label for="comments" class="form-label">Comments</label>
+                <textarea
+                  class="form-control"
+                  id="comments"
+                  rows="3"
+                  placeholder="Enter a message"
+                  required
+                ></textarea>
+              </div>
             </div>
 
             <!-- Submit Button -->
-
-            <div class="col-lg-6 text-end">
-              <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="row my-3">
+              <div class="col-lg-6">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
             </div>
           </form>
         </div>

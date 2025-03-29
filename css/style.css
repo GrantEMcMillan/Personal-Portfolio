@@ -3,6 +3,12 @@ body {
   border: solid #ffd046 1px;
 }
 
+h1,
+h2,
+h3 {
+  color: white;
+}
+
 .navbar-toggler {
   color: #ffd046;
   background-color: #ffd046;
@@ -53,10 +59,6 @@ body {
 }
 
 /* Intro and Profile Picture */
-#intro h1,
-#intro h2 {
-  color: white;
-}
 
 .name {
   color: #ffd046;
@@ -127,9 +129,6 @@ body {
 
 /* Skills Section */
 
-h3 {
-  color: white;
-}
 .fa-brands.fa-html5 {
   color: orange;
   font-size: 5rem;
@@ -141,4 +140,9 @@ h3 {
 .fa-brands.fa-bootstrap {
   color: violet;
   font-size: 5rem;
+}
+
+/* Contact Form */
+.form-label {
+  color: white;
 }
