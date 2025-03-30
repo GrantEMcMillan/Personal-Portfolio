@@ -207,18 +207,25 @@
             <h2>Contact Me</h2>
           </div>
           <form
-            method="post"
-            action="mailto:mcmillan.grant.e@gmail.com"
+            action="https://api.web3forms.com/submit"
+            method="POST"
             class="row my-3"
           >
+            <!-- Web3 Access Key -->
+            <input
+              type="hidden"
+              name="access_key"
+              value="5b472e08-106b-4f07-a16e-852c1492f287"
+            />
             <!-- Name -->
 
             <div class="col-lg-3">
               <label for="fname" class="form-label">First Name</label>
               <input
                 type="text"
+                name="fname"
                 class="form-control"
-                id="name"
+                id="fname"
                 aria-describedby="fname"
                 placeholder="Enter First Name"
                 required
@@ -229,8 +236,9 @@
               <label for="lname" class="form-label">Last Name</label>
               <input
                 type="text"
+                name="lname"
                 class="form-control"
-                id="name"
+                id="lname"
                 aria-describedby="lname"
                 placeholder="Enter Last Name"
                 required
@@ -243,9 +251,10 @@
                 <label for="email" class="form-label">Email address</label>
                 <input
                   type="email"
+                  name="email"
                   class="form-control"
                   id="email"
-                  placeholder="Enter email"
+                  placeholder="Enter Email"
                   required
                 />
               </div>
@@ -257,6 +266,7 @@
                 <label for="comments" class="form-label">Comments</label>
                 <textarea
                   class="form-control"
+                  name="comments"
                   id="comments"
                   rows="3"
                   placeholder="Enter a message"
@@ -264,6 +274,13 @@
                 ></textarea>
               </div>
             </div>
+            <!-- Honeypot Spam Protection -->
+            <input
+              type="checkbox"
+              name="botcheck"
+              class="hidden"
+              style="display: none"
+            />
 
             <!-- Submit Button -->
             <div class="row my-3">
