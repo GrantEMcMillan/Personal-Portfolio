@@ -207,6 +207,8 @@
             <h2>Contact Me</h2>
           </div>
           <form
+            name="formu1"
+            id="form"
             action="https://api.web3forms.com/submit"
             method="POST"
             class="row my-3"
@@ -219,7 +221,7 @@
             />
             <!-- Name -->
 
-            <div class="col-lg-3">
+            <div class="col-lg-3 my-3">
               <label for="fname" class="form-label">First Name</label>
               <input
                 type="text"
@@ -232,7 +234,7 @@
               />
             </div>
 
-            <div class="col-lg-3">
+            <div class="col-lg-3 my-3">
               <label for="lname" class="form-label">Last Name</label>
               <input
                 type="text"
@@ -254,7 +256,7 @@
                   name="email"
                   class="form-control"
                   id="email"
-                  placeholder="Enter Email"
+                  placeholder="Enter Email Address"
                   required
                 />
               </div>
@@ -269,7 +271,7 @@
                   name="comments"
                   id="comments"
                   rows="3"
-                  placeholder="Enter a message"
+                  placeholder="Enter Comments"
                   required
                 ></textarea>
               </div>
@@ -286,9 +288,10 @@
             <div class="row my-3">
               <div class="col-lg-6">
                 <button
-                  type="submit"
+                  type="button"
                   class="btn btn-primary"
                   value="Send Email"
+                  onclick="submit_form();"
                 >
                   Submit
                 </button>
@@ -328,5 +331,11 @@
       </div>
     </footer>
     <script src="./js/bootstrap.js"></script>
+    <script>
+      function submit_form() {
+        document.formu1.submit();
+        document.formu1.reset();
+      }
+    </script>
   </body>
 </html>
