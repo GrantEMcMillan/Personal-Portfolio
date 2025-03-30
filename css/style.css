@@ -112,12 +112,13 @@ h3 {
   color: white;
 }
 
-/* About Section */
-
+/* Section Headings */
 .section-heading {
   color: white;
   border-bottom: #ffd046 2px solid;
 }
+
+/* About Section */
 
 .section-text {
   color: white;
@@ -145,10 +146,6 @@ h3 {
 /* Projects Section */
 
 /* Contact Form */
-
-#contact h2 {
-  border-bottom: #ffd046 2px solid;
-}
 
 .contact-section {
   padding: 0;
