@@ -129,6 +129,10 @@ h3 {
 
 /* Skills Section */
 
+#skills h2 {
+  border-bottom: #ffd046 2px solid;
+}
+
 h3 {
   font-style: italic;
 }
@@ -146,7 +150,16 @@ h3 {
   font-size: 5rem;
 }
 
+/* Projects Section */
+#projects h2 {
+  border-bottom: #ffd046 2px solid;
+}
+
 /* Contact Form */
+
+#contact h2 {
+  border-bottom: #ffd046 2px solid;
+}
 
 .contact-section {
   padding: 0;
