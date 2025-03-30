@@ -68,7 +68,7 @@ h3 {
 .contact-btn {
   color: #ffd046;
   background-color: #34353a;
-  border: solid #ffd046 1px;
+  border: solid #ffd046 2px;
   &:hover {
     background-color: #ffd046;
     color: black;
