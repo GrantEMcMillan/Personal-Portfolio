@@ -129,6 +129,10 @@ h3 {
 
 /* Skills Section */
 
+h3 {
+  font-style: italic;
+}
+
 .fa-brands.fa-html5 {
   color: orange;
   font-size: 5rem;
