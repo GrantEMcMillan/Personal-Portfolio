@@ -116,11 +116,7 @@ h3 {
 
 .section-heading {
   color: white;
-}
-.section-line {
-  width: 100px;
-  height: 2px;
-  background-color: #ffd046;
+  border-bottom: #ffd046 2px solid;
 }
 
 .section-text {
@@ -128,10 +124,6 @@ h3 {
 }
 
 /* Skills Section */
-
-#skills h2 {
-  border-bottom: #ffd046 2px solid;
-}
 
 h3 {
   font-style: italic;
@@ -151,9 +143,6 @@ h3 {
 }
 
 /* Projects Section */
-#projects h2 {
-  border-bottom: #ffd046 2px solid;
-}
 
 /* Contact Form */
 
