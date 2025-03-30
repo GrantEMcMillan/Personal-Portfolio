@@ -143,6 +143,11 @@ h3 {
 }
 
 /* Contact Form */
+
+.contact-section {
+  padding: 0;
+}
+
 .form-label {
   color: white;
 }
