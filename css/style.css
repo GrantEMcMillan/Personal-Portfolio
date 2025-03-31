@@ -125,9 +125,15 @@ h3 {
 }
 
 /* Skills Section */
+@media (max-width: 991px) {
+  .skills {
+    gap: 2rem;
+  }
+}
 
 h3 {
   font-style: italic;
+  margin-bottom: 1rem;
 }
 
 .fa-brands.fa-html5 {
@@ -144,6 +150,20 @@ h3 {
 }
 
 /* Projects Section */
+
+@media (max-width: 488px) {
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 488px) {
+  .btn-secondary {
+    margin: 0.3rem 0;
+  }
+}
 
 /* Contact Form */
 
