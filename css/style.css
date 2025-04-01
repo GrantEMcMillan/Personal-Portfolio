@@ -115,9 +115,35 @@ h3 {
 }
 
 /* Skills Section */
+#skills-list {
+  margin: 0 1rem 3rem 1rem;
+  border: dashed 1px #ffffff;
+  padding: 2rem;
+}
+
+#skills-list li {
+  list-style: none;
+  color: white;
+  display: inline;
+  margin: 0 3rem;
+  font-size: 1rem;
+}
+
+#skills-list i {
+  color: green;
+  font-size: 2rem;
+}
+
+/* Adjust responsiveness for small screens */
+
 @media (max-width: 991px) {
   .skills {
     gap: 2rem;
+  }
+
+  #skills-list li {
+    display: block;
+    margin: 1rem;
   }
 
   #languages i {
@@ -127,7 +153,7 @@ h3 {
   }
 }
 
-.skills h3 {
+#languages h3 {
   font-style: italic;
   margin-bottom: 1rem;
 }
