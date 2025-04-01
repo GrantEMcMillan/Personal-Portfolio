@@ -90,6 +90,9 @@ h3 {
   text-decoration: none;
   font-size: 2rem;
   color: white;
+  &:hover {
+    opacity: 0.5;
+  }
 }
 
 /* Section Headings */
