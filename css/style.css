@@ -1,6 +1,6 @@
 body {
   background-color: #34353a;
-  border: solid #ffd046 1px;
+  border: solid #ffc107 1px;
 }
 
 h1,
@@ -10,9 +10,9 @@ h3 {
 }
 /* Navbar */
 .navbar-toggler {
-  color: #ffd046;
-  background-color: #ffd046;
-  border-color: #ffd046;
+  color: #ffc107;
+  background-color: #ffc107;
+  border-color: #ffc107;
 
   &:hover {
     opacity: 0.5;
@@ -20,19 +20,19 @@ h3 {
 }
 
 .navbar-brand {
-  color: #ffd046;
+  color: #ffc107;
   font-family: "Times New Roman", Times, serif;
   font-size: 2rem;
   padding: 0 0.5rem 0 0.5rem;
 
   &:hover {
-    color: #ffd046;
+    color: #ffc107;
     opacity: 0.5;
   }
 
   &:focus {
     background-color: transparent;
-    color: #ffd046;
+    color: #ffc107;
   }
 }
 
@@ -40,18 +40,18 @@ h3 {
   color: white;
 
   &:hover {
-    color: #ffd046;
+    color: #ffc107;
   }
 
   &:focus {
-    color: #ffd046;
+    color: #ffc107;
   }
 }
 
 /* Intro and Profile Picture */
 
 .name {
-  color: #ffd046;
+  color: #ffc107;
   font-size: 3rem;
 }
 
@@ -76,7 +76,7 @@ h3 {
   width: 2px;
 
   margin: 0 0 2rem 0;
-  background-color: #ffd046;
+  background-color: #ffc107;
 
   height: 200px;
 }
@@ -95,7 +95,7 @@ h3 {
 /* Section Headings */
 .section-heading {
   color: white;
-  border-bottom: #ffd046 2px solid;
+  border-bottom: #ffc107 2px solid;
 }
 
 /* About Section */
@@ -127,6 +127,9 @@ h3 {
 /* Adjust responsiveness for small screens */
 
 @media (max-width: 991px) {
+  #intro {
+    text-align: center;
+  }
   .skills {
     gap: 2rem;
   }
