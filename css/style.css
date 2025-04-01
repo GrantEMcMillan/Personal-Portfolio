@@ -8,7 +8,7 @@ h2,
 h3 {
   color: white;
 }
-
+/* Navbar */
 .navbar-toggler {
   color: #ffd046;
   background-color: #ffd046;
@@ -45,16 +45,6 @@ h3 {
 
   &:focus {
     color: #ffd046;
-  }
-}
-
-.search-button {
-  color: #ffd046;
-  border-color: #ffd046;
-  outline: #ffd046;
-  &:hover {
-    background-color: #ffd046;
-    color: black;
   }
 }
 
@@ -158,7 +148,7 @@ h3 {
 /* Projects Section */
 
 .projects-row {
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 @media (max-width: 992px) {
@@ -173,7 +163,7 @@ h3 {
 /* Contact Form */
 
 #contact {
-  margin: 4rem;
+  margin: 4rem 0;
 }
 
 @media (max-width: 992px) {
