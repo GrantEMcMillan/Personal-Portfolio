@@ -141,9 +141,13 @@ h3 {
     gap: 2rem;
   }
 
+  #skills-list {
+    padding: 0;
+  }
+
   #skills-list li {
     display: block;
-    margin: 1rem;
+    margin: 1rem 0;
   }
 
   #languages i {
