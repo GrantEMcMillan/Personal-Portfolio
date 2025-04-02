@@ -1,6 +1,6 @@
 body {
   background-color: #34353a;
-  border: solid #ffc107 1px;
+  border: solid #ffd046 1px;
 }
 
 h1,
@@ -10,9 +10,9 @@ h3 {
 }
 /* Navbar */
 .navbar-toggler {
-  color: #ffc107;
-  background-color: #ffc107;
-  border-color: #ffc107;
+  color: #ffd046;
+  background-color: #ffd046;
+  border-color: #ffd046;
 
   &:hover {
     opacity: 0.5;
@@ -20,19 +20,19 @@ h3 {
 }
 
 .navbar-brand {
-  color: #ffc107;
+  color: #ffd046;
   font-family: "Times New Roman", Times, serif;
   font-size: 2rem;
   padding: 0 0.5rem 0 0.5rem;
 
   &:hover {
-    color: #ffc107;
+    color: #ffd046;
     opacity: 0.5;
   }
 
   &:focus {
     background-color: transparent;
-    color: #ffc107;
+    color: #ffd046;
   }
 }
 
@@ -40,18 +40,18 @@ h3 {
   color: white;
 
   &:hover {
-    color: #ffc107;
+    color: #ffd046;
   }
 
   &:focus {
-    color: #ffc107;
+    color: #ffd046;
   }
 }
 
 /* Intro and Profile Picture */
 
 .name {
-  color: #ffc107;
+  color: #ffd046;
   font-size: 3rem;
 }
 
@@ -76,7 +76,7 @@ h3 {
   width: 2px;
 
   margin: 0 0 2rem 0;
-  background-color: #ffc107;
+  background-color: #ffd046;
 
   height: 200px;
 }
@@ -98,7 +98,7 @@ h3 {
 /* Section Headings */
 .section-heading {
   color: white;
-  border-bottom: #ffc107 2px solid;
+  border-bottom: #ffd046 2px solid;
 }
 
 /* About Section */
