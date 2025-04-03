@@ -109,6 +109,11 @@ h3 {
 
 /* Skills Section */
 
+.skills h3 {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
 #skills-list {
   margin: 0 1rem 3rem 1rem;
   border: dashed 1px #ffffff;
@@ -154,10 +159,7 @@ h3 {
   }
 }
 
-#languages h3 {
-  font-style: italic;
-  margin-bottom: 1rem;
-}
+/* End responsiveness for small screens */
 
 .fa-brands.fa-html5 {
   color: orange;
